@@ -22,3 +22,7 @@ spring:
     active: native
   config:
     import: optional:configserver:http://config-service:8080
+
+eureka:
+  instance:
+    prefer-ip-address: true
